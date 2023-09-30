@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="./script.js" ></script>
+
+</head>
+<body class="bg-black">
+    <header class="w-[100%] ">
+        <nav class="absolute top-0 w-[100%] flex justify-between md:px-32 
+        py-7 z-10">
+            <div class="md:w-[15%] w-[25%] h-[100%]">
+                <img src="./assets/Logo_Netflix.png" alt="netflix logo" class="w-[100%] h-[100%]">
+            </div>
+        </nav>
+    </header>
+
+    <main >
+        <div class="relative w-full h-[100vh]  md:bg-[url('./assets/loginbg.jpg')] bg-black">
+            
+
+            <div class="hidden md:flex absolute top-0 w-[100%] h-[100%] bg-black/60 inset-0"></div>
+            <div class="md:bg-transparent/70 text-white md:absolute top-[14%] left-[32%] md:px-20 px-10 pt-20 pb-40 mt-20 md:mt-0 rounded-md md:w-[30%] w-[100%]">
+                <div class=" flex flex-col  gap-4 w-[100%] ">
+                    <div class="font-semibold text-3xl">
+                        <h1>Sign In</h1>
+                    </div>
+                    <form action="">
+                        <div>
+                            <input id="inp" type="text" placeholder="Email address" autofocus class=" my-5 bg-[#333333] border-2 border-[#313131] w-full px-4 py-3  rounded-md">
+                        </div>
+    
+                        <div>
+                            <input id="signInput" type="password" placeholder="Password" 
+                            value="" autofocus class="  bg-[#333333] border-2 border-[#313131] w-full  px-4 py-3 rounded-md">
+                        </div>
+    
+                        <div class="bg-red-600 px-4 py-3 rounded-md flex justify-center mt-8"  >
+                            <button class="w-full font-bold">Sign In</button>
+                        </div>
+                    </form>
+
+                    <div class="flex justify-between">
+                        <div>
+                            <input type="checkbox" name="" id="" class="mr-1 ">
+                            <label for="" class="text-sm">Remember me</label>
+                        </div>
+                        <div>
+                            <p class="text-sm">Need Help?</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-10">
+                        <div class="mb-2">
+                            <p>New to Netflix? <span class="cursor-pointer text-lg hover:underline">Sign up now.</span> </p>
+                        </div>
+                        <div>
+                            <p class="text-xs">This page is protected by Google reCAPTCHA to ensure
+                                 you're not a bot. <span class="text-blue-700 cursor-pointer">Learn more.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        
+    </main>
+    
+</body>
+</html>

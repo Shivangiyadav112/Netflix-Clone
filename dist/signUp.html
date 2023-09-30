@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+    <script src="https://kit.fontawesome.com/e229f2202a.js" crossorigin="anonymous"></script>
+    <script src="./script.js" ></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="w-[100%]">
+        <nav class="absolute top-0 w-full px-14 flex justify-between z-20 py-7 border-b border-gray-200">
+
+            <div class="w-40">
+                <img src="./assets/Logo_Netflix.png" alt="netflix logo" class="w-[100%] h-[100%]">
+            </div>
+            <div class="flex justify-center items-center">
+                <h2 class="cursor-pointer hover:underline text-xl font-bold text-gray-700">Sign In</h2>
+            </div>
+        </nav>
+    </header>
+
+    <main class="w-full h-[100vh] flex justify-center mt-28">
+        <div id="signup" class="w-[100%]text-center md:w-max-4xl px-8 py-5 ">
+            <div class="md:mx-72  flex flex-col w-96 h-52">
+                <div class="mt-24 mb-5 px-10">
+                    <span class=""><img src="./assets/Devices.png" alt=""></span>   
+                </div>
+
+                <div class="mt-5">
+                    <div class="text-center mb-3">
+                        <span >STEP <b>1</b> OF <b>3</b></span>
+                    </div>
+
+                    <h1 class="text-4xl font-Roboto font-semibold text-center text-gray-800">Finish setting up your account</h1>
+                </div>
+                <div class="text-center my-4">
+                    <p class="text-xl text-gray-800">Netflix is personalised for you. Create a password to watch on any device at any time.</p>
+                </div>
+
+                <div>
+                    <button class="w-[100%] bg-[#dc030f] py-5 text-white text-xl rounded-lg" onclick="location.href='signUpReg.html'">Next</button>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+     <footer class="w-[100%] h-fit bg-[#F3F3F3] border-t border-gray-300 py-10 text-gray-500">
+        <div class=" h-full md:mx-20 ml-10">
+            <p class="w-full mb-8">Questions? Call 000-919-1694</p>
+                
+                
+                <ul class="max-w-[1000px] m-0 p-0 text-[13px] box-border w-[100%] min-w-[190px] block ">
+                    <li class="inline-block box-border mb-[16px] min-w-[100px]  md:w-[25%] w-[33%]">FAQ</li>
+                    <li class="inline-block box-border mb-[16px] min-w-[100px] pr-[16px] md:w-[25%] w-[33%]">Help Centre</li>
+                    <li class="inline-block box-border mb-[16px] min-w-[100px] pr-[16px] md:w-[25%] w-[33%]">Netflix Shop</li>
+                    <li class="inline box-border mb-[16px] min-w-[100px] pr-[16px] w-[25%]">Terms of use</li>
+                    <br>
+                    <li class="inline-block box-border mb-[16px] min-w-[100px] pr-[16px] md:w-[25%] w-[33%]">Privacy</li>
+                    <li class="inline-block box-border mb-[16px] min-w-[100px] pr-[16px] md:w-[25%] w-[33%]">Cookie Preferences</li>
+                    <li class="inline-block box-border mb-[16px] min-w-[100px] pr-[16px] md:w-[25%] w-[33%]">Corporate Information</li>
+                </ul>
+                    
+                <div class="w-fit mt-5 bg-white border border-1 border-gray-500 py-3 px-3 rounded-sm "><i class="fa-solid fa-globe"></i>
+                    <select name="language" id="langSelect" class="bg-transparent border-none text-gray-500">
+                        <option value="english" selected><i class="fa-solid fa-globe text-black"></i>English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>                    
+                </div>
+                    
+
+                    
+
+                
+            
+
+        </div>
+    </footer> 
+</body>
+</html>
